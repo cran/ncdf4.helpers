@@ -1,0 +1,39 @@
+\name{nc.get.compress.dims}
+\alias{nc.get.compress.dims}
+\title{Get X and Y dimension variables for reduced (compressed) grids}
+\usage{
+nc.get.compress.dims(f, v)
+}
+\arguments{
+  \item{f}{The file (an object of class \code{ncdf4})}
+
+  \item{v}{The name of a variable}
+}
+\value{
+A list consisting of two members of class \code{ncdim4}:
+x.dim for the X axis, and y.dim for the Y axis.
+}
+\description{
+Get X and Y dimension variables for reduced (compressed)
+grids.
+}
+\details{
+The CF metadata convention defines a method for
+implementing reduced grids (grids missing pieces of
+themselves); they call this compression by gathering. This
+function retrieves the X and Y dimensions for reduced
+(compressed) grids, returning a list containing the X and Y
+dimensions.
+}
+\examples{
+## Get compress dimensions from file.
+\dontrun{
+f <- nc_open("pr.nc")
+compress.dims <- nc.get.compress.dims(f, "pr")
+nc_close(f)
+}
+}
+\references{
+\url{http://cf-pcmdi.llnl.gov/documents/cf-conventions/1.6/ch05s03.html}
+}
+
