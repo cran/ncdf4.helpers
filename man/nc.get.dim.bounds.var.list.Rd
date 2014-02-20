@@ -2,10 +2,12 @@
 \alias{nc.get.dim.bounds.var.list}
 \title{Get a list of names of dimension bounds variables.}
 \usage{
-nc.get.dim.bounds.var.list(f)
+nc.get.dim.bounds.var.list(f, v = NULL)
 }
 \arguments{
-  \item{f}{The file (an object of class \code{ncdf4})}
+  \item{f}{The file (an object of class \code{ncdf4}).}
+
+  \item{v}{The name of the variable (a string).}
 }
 \value{
 A character vector naming all of the dimension bounds

@@ -10,7 +10,8 @@ nc.get.proj4.string(f, v)
   \item{v}{The name of a variable}
 }
 \value{
-A string containing the proj4 string
+A string containing the proj4 string, or NULL if a
+translator is not available for the given projection.
 }
 \description{
 Gets the proj4 string for a file.
@@ -27,7 +28,8 @@ Given a file and a variable, this function returns the
 proj4 string for the given file should be. If no projection
 data is found, it returns an empty string. It currently
 supports Lambert Conformal Conic, Transverse Mercator,
-Polar Sterographic, and Rotated Pole projections.
+Polar Sterographic, and Rotated Pole projections, plus the
+latitude_longitude pseudo-projection.
 }
 \examples{
 ## Get the proj4 string for a hypothetical file.
