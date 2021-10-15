@@ -1,6 +1,6 @@
-490effa9670040909e2d18f5d481b33a *CHANGELOG
-a66618846ff4fb4fbe5e42122e69146d *DESCRIPTION
-72c9e486e4231308755bdf2f95133cbd *NAMESPACE
+c1a38a431086d63fe65a428b170282e6 *CHANGELOG
+3d693c2f3c00da1d5313c8205905b545 *DESCRIPTION
+0a9443d4a08202795401faee06f6ae77 *NAMESPACE
 47e83cf534fc50e151903b61845db2b8 *R/helpers.r
 d7c878f6c771db941b82e91790b94ebe *R/ncdf4.helpers-package.R
 71e36c23b5902c1edd33e11f9fcb2e8e *man/get.cluster.worker.subsets.Rd
@@ -26,6 +26,6 @@ d6ee7244f80b10b5be6540117b866983 *man/nc.is.regular.dimension.Rd
 8b5bbbfca1c7a25f9f3c43206af80372 *man/nc.put.var.subset.by.axes.Rd
 6928e44c839ce72bd913377758c977b7 *man/ncdf4.helpers.Rd
 8fbc18818816c5e946688ef951aee2e7 *tests/testthat.R
-07c8af384c09adae280cefd8194e3336 *tests/testthat/test-file-functions.R
+d728288700862674d821e139a63c47c6 *tests/testthat/test-file-functions.R
 d97ef52e17c502564d6a91e219f2e7ed *tests/testthat/test-simple-functions.R
 1752c7860ba70292e9c133432c6eff7f *tests/testthat/test1.nc
